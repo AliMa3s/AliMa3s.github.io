@@ -12,104 +12,303 @@
       <li><a href="index.html">Back</a></li>
     </ul>
     <h1>Stage Project</h1>
-    <div><h3>Text to be added</h3> </div>
-    <div class="gallery" id="gallery">
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp1.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp2.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp3.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp4.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp5.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp6.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp7.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp8.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp9.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp10.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp19.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp12.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp13.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp14.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp15.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp16.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp17.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp18.png" alt="" />
-        </div>
-      </div>
-      <div class="gallery-item">
-        <div class="content">
-          <img src="images/sp11.png" alt="" />
-        </div>
-      </div>
+    <div>
+      <h3>
+        Ik heb als stagiair op hetproject AvanadeAsset Management gewerkt. Dit
+        project ging over het managen van assets overal in de wereld.<br />
+        Waarbijde klant de status van een asset of warehouse kan managen,
+        toevoegen, updaten of verwijderen.
+      </h3>
+      <h2>API</h2>
+      <h3>
+        De API-layerwas gemaakt met .Net 6 framework.De back-end zorgde voor de
+        CRUDL operatie voor de bewerkingen van data <br />
+        (Create, Read, Update, delete, List).
+      </h3>
+      <h2>React</h2>
+      <h3>
+        Nadat het grootste gedeelte van API gemaakt was, zijn we overgestapt
+        naar front-end.
+        <br />We moesten met Microsoft fluent ui werken voor het design. <br />
+        Ik moest ook een map voorzien voor de home page, waar we de warehouses
+        en assets konden zien en op zoeken.
+      </h3>
+      <h2>Azure</h2>
+      <h3>
+        Naast het bouwen van API en front-end hebben we ook heel wat dingen
+        gedaan met Azure. Bv:
+        <br />
+        Het opladen van het API op een web app service, het opladen van
+        front-end-web op een static web app service,<br />
+        azure pipelines leren schrijven op een yaml file (Voor testing,
+        building, running, deployment of webapps enz...).
+      </h3>
+      <h2>IOT</h2>
+      <h3>
+        De volgende fase was het werken met IOT device, dit was heel nieuw voor
+        mij, Ik moest met RaspberryPI werken,
+        <br />
+        de bedoeling was om telemetrie berichten van de sensors uit te lezen en
+        dit aan te tonen op de web applicatie.
+      </h3>
     </div>
-    <script src="gallery.js"></script>
+    <section class="gallery">
+      <div class="carousel">
+        <input type="radio" id="image1" name="gallery-control" checked />
+        <input type="radio" id="image2" name="gallery-control" />
+        <input type="radio" id="image3" name="gallery-control" />
+        <input type="radio" id="image4" name="gallery-control" />
+        <input type="radio" id="image5" name="gallery-control" />
+        <input type="radio" id="image6" name="gallery-control" />
+        <input type="radio" id="image7" name="gallery-control" />
+        <input type="radio" id="image8" name="gallery-control" />
+        <input type="radio" id="image9" name="gallery-control" />
+        <input type="radio" id="image10" name="gallery-control" />
+        <input type="radio" id="image11" name="gallery-control" />
+        <input type="radio" id="image12" name="gallery-control" />
+        <input type="radio" id="image13" name="gallery-control" />
+        <input type="radio" id="image14" name="gallery-control" />
+        <input type="radio" id="image15" name="gallery-control" />
+        <input type="radio" id="image16" name="gallery-control" />
+        <input type="radio" id="image17" name="gallery-control" />
+        <input type="radio" id="image18" name="gallery-control" />
+        <input type="radio" id="image19" name="gallery-control" />
+
+        <input
+          type="checkbox"
+          id="fullscreen"
+          name="gallery-fullscreen-control"
+        />
+
+        <div class="wrap">
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp1.png" alt="image1" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp2.png" alt="image2" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp3.png" alt="image3" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp4.png" alt="image4" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp5.png" alt="image5" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp6.png" alt="image6" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp7.png" alt="image7" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp8.png" alt="image8" />
+            </label>
+          </figure>
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp9.png" alt="image9" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp10.png" alt="image10" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp11.png" alt="image11" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp12.png" alt="image12" />
+            </label>
+          </figure>
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp13.png" alt="image13" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp14.png" alt="image14" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp15.png" alt="image15" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp16.png" alt="image16" />
+            </label>
+          </figure>
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp17.png" alt="image17" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp18.png" alt="image18" />
+            </label>
+          </figure>
+
+          <figure>
+            <label for="fullscreen">
+              <img src="./images/sp19.png" alt="image19" />
+            </label>
+          </figure>
+        </div>
+
+        <div class="thumbnails">
+          <div class="slider"><div class="indicator"></div></div>
+
+          <label
+            for="image1"
+            class="thumb"
+            style="background-image: url('./images/sp1.png')"
+          ></label>
+
+          <label
+            for="image2"
+            class="thumb"
+            style="background-image: url('./images/sp2.png')"
+          ></label>
+
+          <label
+            for="image3"
+            class="thumb"
+            style="background-image: url('./images/sp3.png')"
+          ></label>
+
+          <label
+            for="image4"
+            class="thumb"
+            style="background-image: url('./images/sp4.png')"
+          ></label>
+          <label
+            for="image5"
+            class="thumb"
+            style="background-image: url('./images/sp5.png')"
+          ></label>
+
+          <label
+            for="image6"
+            class="thumb"
+            style="background-image: url('./images/sp6.png')"
+          ></label>
+
+          <label
+            for="image7"
+            class="thumb"
+            style="background-image: url('./images/sp7.png')"
+          ></label>
+
+          <label
+            for="image8"
+            class="thumb"
+            style="background-image: url('./images/sp8.png')"
+          ></label>
+          <label
+            for="image9"
+            class="thumb"
+            style="background-image: url('./images/sp9.png')"
+          ></label>
+
+          <label
+            for="image10"
+            class="thumb"
+            style="background-image: url('./images/sp10.png')"
+          ></label>
+
+          <label
+            for="image11"
+            class="thumb"
+            style="background-image: url('./images/sp11.png')"
+          ></label>
+
+          <label
+            for="image12"
+            class="thumb"
+            style="background-image: url('./images/sp12.png')"
+          ></label>
+          <label
+            for="image13"
+            class="thumb"
+            style="background-image: url('./images/sp13.png')"
+          ></label>
+
+          <label
+            for="image14"
+            class="thumb"
+            style="background-image: url('./images/sp14.png')"
+          ></label>
+
+          <label
+            for="image15"
+            class="thumb"
+            style="background-image: url('./images/sp15.png')"
+          ></label>
+          <label
+            for="image16"
+            class="thumb"
+            style="background-image: url('./images/sp16.png')"
+          ></label>
+
+          <label
+            for="image17"
+            class="thumb"
+            style="background-image: url('./images/sp17.png')"
+          ></label>
+
+          <label
+            for="image18"
+            class="thumb"
+            style="background-image: url('./images/sp18.png')"
+          ></label>
+
+          <label
+            for="image19"
+            class="thumb"
+            style="background-image: url('./images/sp19.png')"
+          ></label>
+        </div>
+      </div>
+    </section>
+
+    <script src="stgallery.js"></script>
   </body>
 </html>
