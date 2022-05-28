@@ -332,13 +332,13 @@ header .follow a:hover {
   width: 60%;
 }
 .about .row-2 .skills .progress:nth-child(7) .bar span {
-  width: 0%;
+  width: 80%;
 }
 .about .row-2 .skills .progress:nth-child(8) .bar span {
-  width: 0%;
+  width: 80%;
 }
 .about .row-2 .skills .progress:nth-child(9) .bar span {
-  width: 0%;
+  width: 70%;
 }
 
 .about .row-2 .box-container {
