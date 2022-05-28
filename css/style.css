@@ -474,7 +474,7 @@ header .follow a:hover {
 
 .portfolio .box-container .box img {
   height: 100%;
-  width: 100%;
+  width: 120%;
   object-fit: cover;
   border-radius: 0.5rem;
   position: relative;
