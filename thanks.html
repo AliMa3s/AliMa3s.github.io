@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Ali Maes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .thank-you-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+        }
+
+        .thank-you-content {
+            background: white;
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        .thank-you-content h1 {
+            color: var(--main-color);
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .thank-you-content p {
+            font-size: 1.6rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .home-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--main-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            font-size: 1.6rem;
+            transition: all 0.3s ease;
+        }
+
+        .home-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .check-icon {
+            font-size: 5rem;
+            color: var(--main-color);
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="thank-you-content">
+            <div class="check-icon">✓</div>
+            <h1>Thank You!</h1>
+            <p>Your message has been sent successfully. I'll get back to you as soon as possible.</p>
+            <a href="index.html" class="home-button">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
