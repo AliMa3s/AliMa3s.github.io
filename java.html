@@ -1,85 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Post Name</title>
-
-
+	<title>Java Bibliotheek</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-	<style type="text/css">
-		.img-container{
-			max-width: 600px;
-		}
-
-		img{
-			width: 100%
-		}
-
-	</style>
-
+	<link rel="stylesheet" type="text/css" href="css/gp.css">
 </head>
 <body>
-
-
-		<ul id="navigation">
-			<li><a href="index.html">Back</a></li>
-
-		</ul>
-	</div>
-
+	<a href="index.html" class="back-link">← Back</a>
+	
 	<div class="main-container">
-		<br>
+		<h1 class="heading">Bibliotheek Management Systeem</h1>
 
-		
-		
-		<h1>Bibliotheek lenen van boeken en terugbrengen, gemaakt in Java</h1>
-
-		<p>Dit is een schoolproject waarin ik een bibliotheekapplicatie moest maken.
-		<br>
-		<br>
-		In deze applicatie kan je een boek lenen en teruggeven, de data word opgeslaan in Sql databank.
-
-
-		<br>Daarnaast heb je ook toegang tot alle leden met hun informatie.
-		<br>
-		<br>
-		De informatiewijziging gebeurt in realtime met SQL-Server en wordt in realtime getoond in de applicatie.
-		<br>
-		<br>
-		Men kan leden selecteren en de gewenste boeken uitlenen of teruggebrachte boeken ingeven.
-		<br>
-		<br>
-		Een totaal overzicht van alle leningen worden ook getoond door de sql-server te verbinden met de databank.</p>
-		<br> <br> Voor meer info bezoek mijn github aub.</p>
-		<h5>Technologies:</h5>
-		<ul>
-			<li>- Java</li>
+		<div class="project-description">
+			<p>Dit is een schoolproject waarin ik een bibliotheekapplicatie moest maken.</p>
+			<p>In deze applicatie kan je een boek lenen en teruggeven, de data word opgeslaan in Sql databank.</p>
+			<p>Daarnaast heb je ook toegang tot alle leden met hun informatie.</p>
+			<p>De informatiewijziging gebeurt in realtime met SQL-Server en wordt in realtime getoond in de applicatie.</p>
+			<p>Men kan leden selecteren en de gewenste boeken uitlenen of teruggebrachte boeken ingeven.</p>
+			<p>Een totaal overzicht van alle leningen worden ook getoond door de sql-server te verbinden met de databank.</p>
 			
-		</ul>
-
-
-		<h5>Biotheek Applicatie</h5>
-		<div class="img-container">
-			<a href="./images/java2.png"><img src="./images/java2.png"></a>
+			<div class="technologies">
+				<h3>Technologies:</h3>
+				<ul>
+					<li>Java</li>
+					<li>SQL Server</li>
+					<li>JDBC</li>
+					<li>Java Swing</li>
+				</ul>
+			</div>
 		</div>
 
-		<h6>Biotheek screenshots</h5>
-		<div class="img-container">
-			<a href="./images/java3.PNG"><img src="./images/java3.PNG"></a>
+		<div class="gallery-image">
+			<div class="img-box" style="--i:1">
+				<a href="./images/java2.png">
+					<img src="./images/java2.png" alt="Library Management System">
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Library Management System</p>
+							<p class="opacity-low">Main Interface</p>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="img-box" style="--i:2">
+				<a href="./images/java3.png">
+					<img src="./images/java3.png" alt="Library Management System">
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Book Management</p>
+							<p class="opacity-low">Book Lending Interface</p>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="img-box" style="--i:3">
+				<a href="./images/java.png">
+					<img src="./images/java.png" alt="Library Management System">
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Member Management</p>
+							<p class="opacity-low">User Database View</p>
+						</div>
+					</div>
+				</a>
+			</div>
 		</div>
-		<h6>Biotheek screenshots</h5>
-		<div class="img-container">
-			<a href="./images/java.png"><img src="./images/java.png"></a>
-		</div>
-		
 	</div>
 
+	<!-- Add lightbox script -->
+	<script src="js/lightbox.js"></script>
 </body>
 </html>

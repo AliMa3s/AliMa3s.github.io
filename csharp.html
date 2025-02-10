@@ -1,100 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Csharp Adresbeheer</title>
-
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-
-	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-	<style type="text/css">
-		.img-container{
-			max-width: 600px;
-		}
-
-		img{
-			width: 100%
-		}
-
-	</style>
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/gp.css" />
+    <title>C# Adresbeheer</title>
 </head>
 <body>
-	<div class="nav-wrapper">
+    <a href="index.html" class="back-link">← Back</a>
+    <h1 class="heading">AdresBeheer Application</h1>
 
-		<!-- Link around dots-wrapper added after tutorial video -->
+    <div class="project-description">
+        <p>Dit is een school project waar ik een AdresBeheer applicatie moest bouwen.</p>
+        <p>In deze applicatie wordt de data gelezen van een gml file met logica als backend en achteraf al die data wordt verstuurd naar de databank.</p>
+        <p>In deze applicatie kan men adressen, gemeente, straat toevoegen, verwijderen en updaten. Daarnaast er zijn ook unittesten geschereven.</p>
+        <p>Er is een gebruiksvriendelijke interface gemaakt waarbij gebruikers zonder technische achtergrond eenvoudig adressen kunnen beheren.</p>
+        <p>Een totaal overzicht van alle adressen worden in realtime getoond via de SQL Server database connectie.</p>
+        
+        <div class="technologies">
+            <h3>Technologies:</h3>
+            <ul>
+                <li>C# ADO.NET</li>
+                <li>SQL Server</li>
+                <li>Windows Forms</li>
+                <li>Unit Testing</li>
+                <li>GML File Processing</li>
+            </ul>
+        </div>
+    </div>
 
-		<ul id="navigation">
-			<li><a href="index.html">Back</a></li>
+    <div class="gallery-image">
+        <div class="img-box" style="--i:1">
+            <a href="./images/c1.PNG">
+                <img src="./images/c1.PNG" alt="Main Interface" />
+                <div class="transparent-box">
+                    <div class="caption">
+                        <p>AdresBeheer Application</p>
+                        <p class="opacity-low">Main Dashboard</p>
+                    </div>
+                </div>
+            </a>
+        </div>
 
-		</ul>
-	</div>
+        <div class="img-box" style="--i:2">
+            <a href="./images/c2.PNG">
+                <img src="./images/c2.PNG" alt="Address Management" />
+                <div class="transparent-box">
+                    <div class="caption">
+                        <p>Address Management</p>
+                        <p class="opacity-low">Data Entry View</p>
+                    </div>
+                </div>
+            </a>
+        </div>
 
-	<div class="main-container">
-		<br>
+        <div class="img-box" style="--i:3">
+            <a href="./images/c3.PNG">
+                <img src="./images/c3.PNG" alt="Data Overview" />
+                <div class="transparent-box">
+                    <div class="caption">
+                        <p>Data Overview</p>
+                        <p class="opacity-low">Address Listing</p>
+                    </div>
+                </div>
+            </a>
+        </div>
 
-		
-		
-		<h1>AdresBeheer Applicatie Gemaakt in C#</h1>
-		<h2>
+        <div class="img-box" style="--i:4">
+            <a href="./images/c4.PNG">
+                <img src="./images/c4.PNG" alt="Edit Interface" />
+                <div class="transparent-box">
+                    <div class="caption">
+                        <p>Edit Interface</p>
+                        <p class="opacity-low">Address Modification</p>
+                    </div>
+                </div>
+            </a>
+        </div>
 
-			<p>Dit is een school project waar ik een AdresBeheer applicatie moest bouwen.
-				<br>
-				<br>
-				In deze applicatie wordt de data gelezen van een gml file met logica als backend
-				
-				
-				<br> en achteraf al die data wordt verstuurd naar de databank.
-				<br>
-				<br>
-				In deze applicatie kan men adressen, gemeente, straat toevoegen, verwijderen en updaten.
-				<br>Daarnaast er zijn ook unittesten geschereven
-				<br>
-				<br>
-				Daarnaast is er voor het gemak van de gebruiker een userinterface gemaakt waarin een gebruiker met
-				
-				
-				<br> weinig informatica-achtergrond een adres gemakkelijk kan wijzigen.
-				<br>
-				<br>
-				Een totaal overzicht van alle adressen worden ook getoond door de sql-server te verbinden met de databank in realtime.
-				<br> <br> Voor meer info bezoek mijn github aub.</p>
-				
-				<h2>Technologies:</h2>
-				<ul>
-					<h2><li>- C# ADO.NET</li> </h2>
-					
-				</ul>
-				
-				
-				<h2>AdressenBeheer Applicatie Applicatie</h2>
-			</h2>
-		<div class="img-container">
-			<a href="/images/c1.PNG"><img src="/images/c1.PNG"></a>
-		</div>
+        <div class="img-box" style="--i:5">
+            <a href="./images/c5.PNG">
+                <img src="./images/c5.PNG" alt="Search Function" />
+                <div class="transparent-box">
+                    <div class="caption">
+                        <p>Search Function</p>
+                        <p class="opacity-low">Filter and Search</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
 
-		<h2>AdressenBeheer Applicatie screenshots</h5>
-		<div class="img-container">
-			<a href="/images/c2.PNG"><img src="/images/c2.PNG"></a>
-		</div>
-		<h2>AdressenBeheer Applicatie screenshots</h5>
-		<div class="img-container">
-			<a href="/images/c3.PNG"><img src="./images/c3.PNG"></a>
-		</div>
-		<h2>AdressenBeheer Applicatie screenshots</h5>
-			<div class="img-container">
-				<a href="./images/c4.PNG"><img src="./images/c4.PNG"></a>
-			</div><h2>AdressenBeheer Applicatie screenshots</h5>
-				<div class="img-container">
-					<a href="/images/c5.PNG"><img src="/images/c5.PNG"></a>
-				</div>
-	</div>
-
+    <!-- Add lightbox script -->
+    <script src="js/lightbox.js"></script>
 </body>
 </html>
